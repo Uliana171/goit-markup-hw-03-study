@@ -1,0 +1,27 @@
+.btn {
+}
+.list-btn {
+}
+.item-btn {
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.projects {
+}
+.projects-list {
+}
+.projects-title {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+.projects-text {
+  color: var(--gray-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}

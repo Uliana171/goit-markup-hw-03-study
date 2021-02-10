@@ -1,0 +1,105 @@
+/* перемінні кольорів = всі кольори на сторінці, :root означає застосування для всього документу */
+:root {
+  --blue-text: rgba(33, 150, 243, 1);
+
+  --black: rgba(0, 0, 0, 1);
+  --black-text: rgba(33, 33, 33, 1);
+
+  --gray-text: rgba(117, 117, 117, 1);
+  --gray-light: rgba(255, 255, 255, 0.6);
+
+  --white-text: rgba(255, 255, 255, 1);
+}
+
+/* зробити невидимим заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* щоб прибрати крапки із списка */
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max: width 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.page-header {
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--black);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30, 52px;
+}
+
+.logo-web {
+  color: var(--blue-text);
+}
+
+.logo-studio {
+  color: var(--white-text);
+  /* тимчасово */
+  background-color: coral;
+}
+.menu-nav {
+}
+
+.link:hover,
+.link:focus {
+  color: var(--blue-text);
+}
+
+.contacts-header {
+}
+
+.contacts-header-items {
+  color: var(--gray-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer {
+}
+
+.adress {
+}
+
+.adress-text {
+  color: var(--white-text);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* тимчасово */
+  background-color: chocolate;
+}
+
+.contacts {
+}
+
+.contacts-items {
+  color: var(--gray-light);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
