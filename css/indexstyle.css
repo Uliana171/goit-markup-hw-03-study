@@ -1,6 +1,6 @@
 .centrum {
-  /* тимчасово */
-  background-color: red;
+  background-color: var(--grphite-backraund);
+  width: 1600px;
 }
 .centrum-title {
   color: var(--white-text);
@@ -19,32 +19,53 @@
 }
 
 .features {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+  background-color: burlywood;
 }
+
 .features-items {
+  flex-basis: calc(100% / 3);
 }
 .features-items-title {
   color: var(--black-text);
   font-weight: 700;
   font-size: 14px;
-  line-height: 16, 41px;
 }
 
 .features-items-text {
   color: var(--gray-text);
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
 }
 
 .servises {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* margin-left: 200px;
+  margin-right: 200px; */
 }
 .servises-title {
   color: var(--black-text);
   font-style: 400;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-}
+  justify-content: space-between; вирівняти 
 .servises-items {
 }
 
@@ -55,7 +76,6 @@
   font-style: 400;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
 }
 .team-items {
 }
@@ -64,12 +84,10 @@
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
 }
 .team-items-text {
   color: var(--gray-text);
   font-style: 400;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
 }

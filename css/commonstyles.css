@@ -9,6 +9,20 @@
   --gray-light: rgba(255, 255, 255, 0.6);
 
   --white-text: rgba(255, 255, 255, 1);
+
+  --grphite-backraund: rgba(47, 48, 58, 1);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  /* margin-left: 0px;
+  margin-right: 0px; */
+
+  margin-left: 200px;
+  margin-right: 200px;
+  width: 1600px;
 }
 
 /* зробити невидимим заголовок */
@@ -32,54 +46,71 @@ ul {
 }
 
 img {
-  display: block;
-  max: width 100%;
-  height: auto;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
+  display: inline-flex;
+  width: 90px;
+  height: 90px;
 }
 
 .page-header {
+  background-color: skyblue;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
 }
 
+/* дизайн логотипу */
 .logo {
   font-family: "Raleway", sans-serif;
   color: var(--black);
   font-weight: 700;
   font-size: 26px;
-  line-height: 30, 52px;
 }
 
-.logo-web {
+.logo > .web {
   color: var(--blue-text);
 }
 
-.logo-studio {
+.logo > .studio {
   color: var(--white-text);
-  /* тимчасово */
-  background-color: coral;
-}
-.menu-nav {
 }
 
+.menu-nav {
+  background-color: darkgreen;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.manu-nav-items {
+}
+
+/* колір силок навігації */
+.nav {
+  color: var(--black-text);
+}
+
+/* всі посилання при ховері */
 .link:hover,
-.link:focus {
+.link:focus,
+.link:active {
   color: var(--blue-text);
 }
 
 .contacts-header {
+  display: flex;
+}
+
+/* колір посилань тел і мейл в хедері */
+.cont {
+  color: var(--gray-text);
 }
 
 .contacts-header-items {
-  color: var(--gray-text);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
 }
 
 .footer {
+  background-color: var(--grphite-backraund);
 }
 
 .adress {
@@ -89,17 +120,16 @@ body {
   color: var(--white-text);
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* тимчасово */
-  background-color: chocolate;
 }
 
 .contacts {
 }
 
 .contacts-items {
-  color: var(--gray-light);
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+}
+
+.contfooter {
+  color: var(--gray-light);
 }
